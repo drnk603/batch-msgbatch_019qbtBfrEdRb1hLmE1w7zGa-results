@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="sk">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | domain</title>
+  <meta name="description" content="Preskúmajte naše portfólio hudobných projektov a klientskych prípadových štúdií. Zobrazujeme našu prácu v oblasti hudobnej produkcie, zvukového inžinierstva a skladania.">
+  <link rel="canonical" href="https://domain.com/portfolio.html">
+  <meta property="og:title" content="Portfólio | domain">
+  <meta property="og:description" content="Preskúmajte naše portfólio hudobných projektov a klientskych prípadových štúdií. Zobrazujeme našu prácu v oblasti hudobnej produkcie, zvukového inžinierstva a skladania.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://domain.com/portfolio.html">
+  <meta property="og:image" content="https://domain.com/assets/og-portfolio.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+ </head>
+ <body>
+  <header class="navbar navbar-expand-md sticky-top bg-white border-bottom">
+   <div class="container-fluid">
+    <a class="navbar-brand" href="/" aria-label="HudobnýSvet domovská stránka"> <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=150&amp;h=40&amp;fit=crop&amp;q=80" alt="HudobnýSvet logo" width="150" height="40" loading="eager"> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Prepnúť navigáciu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="mainNav">
+     <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+      <li class="nav-item"><a class="nav-link" href="/" aria-current="page">Domov</a></li>
+      <li class="nav-item"><a class="nav-link" href="about.html">O nás</a></li>
+      <li class="nav-item"><a class="nav-link" href="services.html">Služby</a></li>
+      <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfólio</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
+     </ul>
+     <a href="contact.html" class="btn btn-primary ms-md-3">Začať projekt</a>
+    </div>
+   </div>
+  </header>
+  <nav aria-label="breadcrumb" class="py-3">
+   <div class="container">
+    <ol class="breadcrumb mb-0">
+     <li class="breadcrumb-item"><a href="/">Domov</a></li>
+     <li class="breadcrumb-item active" aria-current="page">Portfólio</li>
+    </ol>
+   </div>
+  </nav>
+  <main>
+   <section class="l-section py-4 py-md-5" id="portfolio-hero" style="scroll-margin-top: 64px;">
+    <div class="container">
+     <div class="row align-items-center">
+      <div class="col-lg-6" data-aos="fade-right">
+       <h1 class="display-4 fw-bold mb-4">Naše hudobné portfólio</h1>
+       <p class="lead mb-4">Preskúmajte našu zbierku úspešných projektov, od hudobnej produkcie a zvukového inžinierstva až po živé vystúpenia a skladbu. Každý projekt predstavuje náš záväzok k excelentnosti a inovácii v hudbe.</p>
+       <a href="#projects" class="c-button btn btn-primary btn-lg">Zobraziť projekty</a>
+      </div>
+      <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
+       <div class="ratio ratio-16x9">
+        <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&amp;h=600&amp;fit=crop&amp;q=80" alt="Profesionálne hudobné štúdio s mixážnym pultom a monitormi" class="img-fluid" width="800" height="600" loading="eager" style="object-fit: cover; border-radius: 8px;">
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-4 py-md-5 bg-light" id="filter" style="scroll-margin-top: 64px;">
+    <div class="container">
+     <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="h3 fw-bold mb-3">Filtrovať projekty</h2>
+      <div class="d-flex flex-wrap justify-content-center gap-2">
+       <button class="c-button btn btn-outline-primary is-active" data-filter="all">Všetky</button>
+       <button class="c-button btn btn-outline-primary" data-filter="production">Produkcia</button>
+       <button class="c-button btn btn-outline-primary" data-filter="mixing">Mixing &amp; Mastering</button>
+       <button class="c-button btn btn-outline-primary" data-filter="composition">Skladba</button>
+       <button class="c-button btn btn-outline-primary" data-filter="live">Živé vystúpenia</button>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-4 py-md-5" id="projects" style="scroll-margin-top: 64px;">
+    <div class="container">
+     <div class="row g-4" id="portfolio-grid">
+      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-category="production">
+       <article class="c-card card h-100 d-flex flex-column">
+        <div class="ratio ratio-16x9">
+         <img src="https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=600&amp;h=400&amp;fit=crop&amp;q=80" alt="Album produkcia pre indie umelca s vintage analógovým vybavením" class="card-img-top" width="600" height="400" loading="lazy" style="object-fit: cover;">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <span class="badge bg-primary mb-2 align-self-start">Produkcia</span>
+         <h3 class="h5 card-title">Indie Album "Northern Lights"</h3>
+         <p class="card-text">Plná albumová produkcia pre emerging indie umelca. Projekt zahŕňal nahrávanie, mixovanie a mastering 12 skladieb s vintage analógovým zvukom a modernými produkčnými technikami.</p>
+         <button class="c-button btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#project1Modal">Zobraziť podrobnosti</button>
+        </div>
+       </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100" data-category="mixing">
+       <article class="c-card card h-100 d-flex flex-column">
+        <div class="ratio ratio-16x9">
+         <img src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=600&amp;h=400&amp;fit=crop&amp;q=80" alt="Mixing konzola v profesionálnom štúdiu s viacerými monitormi" class="card-img-top" width="600" height="400" loading="lazy" style="object-fit: cover;">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <span class="badge bg-primary mb-2 align-self-start">Mixing &amp; Mastering</span>
+         <h3 class="h5 card-title">Electronic EP Mastering</h3>
+         <p class="card-text">Profesionálny mixing a mastering pre 5-skladbové elektronické EP. Zdôraznenie dynamického rozsahu, priestorovej hĺbky a optimalizácia pre streaming platformy a vinyl release.</p>
+         <button class="c-button btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#project2Modal">Zobraziť podrobnosti</button>
+        </div>
+       </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200" data-category="composition">
+       <article class="c-card card h-100 d-flex flex-column">
+        <div class="ratio ratio-16x9">
+         <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&amp;h=400&amp;fit=crop&amp;q=80" alt="Hudobná notácia a skladateľský proces s klavírom" class="card-img-top" width="600" height="400" loading="lazy" style="object-fit: cover;">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <span class="badge bg-primary mb-2 align-self-start">Skladba</span>
+         <h3 class="h5 card-title">Filmová soundtrack kompozícia</h3>
+         <p class="card-text">Originálna orchestrálna skladba pre nezávislý film. 45 minút hudobného materiálu zahŕňajúceho leitmotívy, ambientné pasáže a dynamické akčné sekvencie s live orchestrom.</p>
+         <button class="c-button btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#project3Modal">Zobraziť podrobnosti</button>
+        </div>
+       </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-category="live">
+       <article class="c-card card h-100 d-flex flex-column">
+        <div class="ratio ratio-16x9">
+         <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=600&amp;h=400&amp;fit=crop&amp;q=80" alt="Živý koncert s osvetlením a publikom" class="card-img-top" width="600" height="400" loading="lazy" style="object-fit: cover;">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <span class="badge bg-primary mb-2 align-self-start">Živé vystúpenia</span>
+         <h3 class="h5 card-title">Festival hlavný stage produkcia</h3>
+         <p class="card-text">Kompletná produkcia zvuku pre hlavný stage hudobného festivalu. Koordinácia multi-bandového setupu, live mixing pre 15,000+ návštevníkov a broadcast stream management.</p>
+         <button class="c-button btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#project4Modal">Zobraziť podrobnosti</button>
+        </div>
+       </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100" data-category="production">
+       <article class="c-card card h-100 d-flex flex-column">
+        <div class="ratio ratio-16x9">
+         <img src="https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=600&amp;h=400&amp;fit=crop&amp;q=80" alt="Producent pracujúci v modernom hudobnom štúdiu" class="card-img-top" width="600" height="400" loading="lazy" style="object-fit: cover;">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <span class="badge bg-primary mb-2 align-self-start">Produkcia</span>
+         <h3 class="h5 card-title">Hip-Hop EP produkcia</h3>
+         <p class="card-text">Moderná hip-hop produkcia s 8 skladbami pre slovenského rappera. Beat production, vokálne nahrávanie, harmonické aranžmány a finálny mix pre Spotify a Apple Music release.</p>
+         <button class="c-button btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#project5Modal">Zobraziť podrobnosti</button>
+        </div>
+       </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200" data-category="composition">
+       <article class="c-card card h-100 d-flex flex-column">
+        <div class="ratio ratio-16x9">
+         <img src="https://images.unsplash.com/photo-1460036521480-ff49c08c2781?w=600&amp;h=400&amp;fit=crop&amp;q=80" alt="Digitálny audio workstation s MIDI sekvenciami" class="card-img-top" width="600" height="400" loading="lazy" style="object-fit: cover;">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <span class="badge bg-primary mb-2 align-self-start">Skladba</span>
+         <h3 class="h5 card-title">Commercial jingle série</h3>
+         <p class="card-text">Skladba 12 originálnych jingles pre národnú reklamú kampaň. Catchy melódie, brand identity hudba a variácie pre rôzne médiá (TV, rádio, online platformy).</p>
+         <button class="c-button btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#project6Modal">Zobraziť podrobnosti</button>
+        </div>
+       </article>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-4 py-md-5 bg-light" id="case-studies" style="scroll-margin-top: 64px;">
+    <div class="container">
+     <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="h3 fw-bold">Prípadové štúdie klientov</h2>
+      <p class="lead">Hlbší pohľad na vybrané projekty a ich výsledky</p>
+     </div>
+     <div class="row g-4">
+      <div class="col-lg-6" data-aos="fade-right">
+       <article class="c-card card h-100">
+        <div class="card-body">
+         <h3 class="h5 card-title mb-3">Prípad: Transformácia nezávislého umelca</h3>
+         <p class="card-text mb-3"><strong>Klient:</strong> Emerging folk umelkyňa</p>
+         <p class="card-text mb-3"><strong>Výzva:</strong> Prechod z home recordingu na profesionálny zvuk bez straty autenticity</p>
+         <p class="card-text mb-3"><strong>Riešenie:</strong> Hybridný prístup kombinujúci analógové preamps s digitálnym workflowom, zachovanie raw emócie pri zlepšení clarity a punch</p>
+         <p class="card-text mb-3"><strong>Výsledok:</strong></p>
+         <ul class="mb-3">
+          <li>250% nárast Spotify streams prvý mesiac</li>
+          <li>Featured v 3 mainstream playlistoch</li>
+          <li>Podpis zmluvy s indie labelom</li>
+         </ul>
+        </div>
+       </article>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+       <article class="c-card card h-100">
+        <div class="card-body">
+         <h3 class="h5 card-title mb-3">Prípad: Live concert broadcast</h3>
+         <p class="card-text mb-3"><strong>Klient:</strong> Filharmonický orchester</p>
+         <p class="card-text mb-3"><strong>Výzva:</strong> Multi-camera live stream s high-fidelity audio pre medzinárodné publikum</p>
+         <p class="card-text mb-3"><strong>Riešenie:</strong> 24-kanálový remote mixing setup, redundantné streaming služby, real-time monitoring a audio quality control</p>
+         <p class="card-text mb-3"><strong>Výsledok:</strong></p>
+         <ul class="mb-3">
+          <li>45,000 simultánnych divákov worldwide</li>
+          <li>Zero downtime počas 2-hodinového koncertu</li>
+          <li>98% pozitívny feedback na audio kvalitu</li>
+         </ul>
+        </div>
+       </article>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-4 py-md-5" id="testimonials" style="scroll-margin-top: 64px;">
+    <div class="container">
+     <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="h3 fw-bold">Čo hovoria naši klienti</h2>
+      <p class="lead">Reálne skúsenosti od umelcov a hudobných profesionálov</p>
+     </div>
+     <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+       <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+       <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+       <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+       <div class="carousel-item active">
+        <div class="row justify-content-center">
+         <div class="col-lg-8">
+          <div class="c-card card text-center p-4">
+           <div class="mb-3">
+            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&amp;h=120&amp;fit=crop&amp;q=80" alt="Portét Martina Kováča" class="rounded-circle" width="120" height="120" loading="lazy" style="object-fit: cover;">
+           </div>
+           <blockquote class="blockquote mb-3">
+            <p>"domain posunulo moju hudbu na úplne novú úroveň. Ich pozornosť k detailom a pochopenie môjho umeleckého vízie bolo výnimočné. Každá skladba znie presne tak, ako som si predstavoval, len ešte lepšie."</p>
+           </blockquote>
+           <footer class="blockquote-footer">
+            <strong>Martin Kováč</strong> — Singer-songwriter
+           </footer>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="carousel-item">
+        <div class="row justify-content-center">
+         <div class="col-lg-8">
+          <div class="c-card card text-center p-4">
+           <div class="mb-3">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&amp;h=120&amp;fit=crop&amp;q=80" alt="Portét Lucie Novákovej" class="rounded-circle" width="120" height="120" loading="lazy" style="object-fit: cover;">
+           </div>
+           <blockquote class="blockquote mb-3">
+            <p>"Profesionalita a technická excelentnosť domain sú neprekonateľné. Naša live produkcia bola bezchybná a publikum bolo nadšené. Určite budeme spolupracovať opäť."</p>
+           </blockquote>
+           <footer class="blockquote-footer">
+            <strong>Lucia Nováková</strong> — Event manager
+           </footer>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="carousel-item">
+        <div class="row justify-content-center">
+         <div class="col-lg-8">
+          <div class="c-card card text-center p-4">
+           <div class="mb-3">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&amp;h=120&amp;fit=crop&amp;q=80" alt="Portét Petra Horvátha" class="rounded-circle" width="120" height="120" loading="lazy" style="object-fit: cover;">
+           </div>
+           <blockquote class="blockquote mb-3">
+            <p>"Mixing a mastering od domain transformoval môj album. Zvuk je teraz balanced, powerful a commercial-ready. Ich expertíza a rýchly turnaround čas sú impresívne."</p>
+           </blockquote>
+           <footer class="blockquote-footer">
+            <strong>Peter Horváth</strong> — Electronic producer
+           </footer>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Predchádzajúce</span></button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Nasledujúce</span></button>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-4 py-md-5 bg-primary text-white" id="cta" style="scroll-margin-top: 64px;">
+    <div class="container text-center" data-aos="fade-up">
+     <h2 class="h3 fw-bold mb-3">Pripravení začať váš projekt?</h2>
+     <p class="lead mb-4">Poďme spolu vytvoriť niečo výnimočné. Kontaktujte nás pre nezáväznú konzultáciu.</p>
+     <a href="contact.html" class="c-button btn btn-light btn-lg">Kontaktovať nás</a>
+    </div>
+   </section>
+  </main>
+  <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h5 class="modal-title" id="project1ModalLabel">Indie Album "Northern Lights"</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zavrieť"></button>
+     </div>
+     <div class="modal-body">
+      <img src="https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=800&amp;h=500&amp;fit=crop&amp;q=80" alt="Album produkcia detail" class="img-fluid mb-3" width="800" height="500" loading="lazy">
+      <h6 class="fw-bold mb-2">O projekte</h6>
+      <p>Komplexná albumová produkcia pre mladého indie umelca z Bratislavy. Projekt zahŕňal 3-mesačný proces od pre-produkcie cez nahrávanie až po finálny mastering.</p>
+      <h6 class="fw-bold mb-2 mt-3">Použité technológie</h6>
+      <ul>
+       <li>Analógový preamp chain (Neve 1073, API 512c)</li>
+       <li>Vintage mikrofóny (Neumann U87, AKG C414)</li>
+       <li>Hybrid mixing v Pro Tools a Ableton Live</li>
+       <li>Mastering pre vinyl a digital release</li>
+      </ul>
+      <h6 class="fw-bold mb-2 mt-3">Výsledky</h6>
+      <ul>
+       <li>Released na všetkých major platformách</li>
+       <li>Featured v Spotify editoriálnych playlistoch</li>
+       <li>Pozitívne recenzie v hudobnej tlači</li>
+       <li>Vinyl pressovanie 500 kusov (sold out)</li>
+      </ul>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavrieť</button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h5 class="modal-title" id="project2ModalLabel">Electronic EP Mastering</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zavrieť"></button>
+     </div>
+     <div class="modal-body">
+      <img src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=800&amp;h=500&amp;fit=crop&amp;q=80" alt="Mastering štúdio detail" class="img-fluid mb-3" width="800" height="500" loading="lazy">
+      <h6 class="fw-bold mb-2">O projekte</h6>
+      <p>Profesionálny mixing a mastering pre 5-skladbové elektronické EP slovenského producera. Zameranie na dynamický rozsah, sub-bass clarity a optimalizáciu pre klubové systémy a streaming.</p>
+      <h6 class="fw-bold mb-2 mt-3">Technický approach</h6>
+      <ul>
+       <li>Stem mastering pre maximálnu kontrolu</li>
+       <li>Multiband kompresie a limiting</li>
+       <li>Loudness normalization pre streaming (LUFS -14)</li>
+       <li>High-resolution masters pre DJ use (WAV 24bit/48kHz)</li>
+      </ul>
+      <h6 class="fw-bold mb-2 mt-3">Deliverables</h6>
+      <ul>
+       <li>Spotify/Apple Music optimized masters</li>
+       <li>Beatport mastered versions</li>
+       <li>Vinyl pre-master (če bol plánovaný pressing)</li>
+      </ul>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavrieť</button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h5 class="modal-title" id="project3ModalLabel">Filmová soundtrack kompozícia</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zavrieť"></button>
+     </div>
+     <div class="modal-body">
+      <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&amp;h=500&amp;fit=crop&amp;q=80" alt="Orchestrálna skladba detail" class="img-fluid mb-3" width="800" height="500" loading="lazy">
+      <h6 class="fw-bold mb-2">O projekte</h6>
+      <p>Originálna orchestrálna score pre slovenský nezávislý film. 45 minút hudobného materiálu, 22 individuálnych cues, nahrávané s live chamber orchestra.</p>
+      <h6 class="fw-bold mb-2 mt-3">Kompozičný proces</h6>
+      <ul>
+       <li>Spotting session s režisérom</li>
+       <li>Tematický vývoj a leitmotívy</li>
+       <li>MIDI mockup a orchestrácia</li>
+       <li>Live recording session</li>
+       <li>Final mix v Dolby Atmos</li>
+      </ul>
+      <h6 class="fw-bold mb-2 mt-3">Orchestra</h6>
+      <p>15-member chamber ensemble: strings, woodwinds, brass, percussion</p>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavrieť</button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="modal fade" id="project4Modal" tabindex="-1" aria-labelledby="project4ModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h5 class="modal-title" id="project4ModalLabel">Festival hlavný stage produkcia</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zavrieť"></button>
+     </div>
+     <div class="modal-body">
+      <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=800&amp;h=500&amp;fit=crop&amp;q=80" alt="Festival stage detail" class="img-fluid mb-3" width="800" height="500" loading="lazy">
+      <h6 class="fw-bold mb-2">O projekte</h6>
+      <p>Kompletná live sound produkcia pre hlavný stage letného hudobného festivalu. 2-dňový event, 18 performancov, 15,000+ návštevníkov.</p>
+      <h6 class="fw-bold mb-2 mt-3">Technický setup</h6>
+      <ul>
+       <li>Line array PA systém (Meyer Sound LEO)</li>
+       <li>DiGiCo SD7 mixing console</li>
+       <li>Redundantné RF systémy pre wireless</li>
+       <li>Multi-track recording všetkých performancov</li>
+       <li>Live broadcast mix pre TV a streaming</li>
+      </ul>
+      <h6 class="fw-bold mb-2 mt-3">Výsledky</h6>
+      <ul>
+       <li>Zero technical downtime</li>
+       <li>Exceptional audio quality reviews</li>
+       <li>45,000 live stream viewers</li>
+      </ul>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavrieť</button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="modal fade" id="project5Modal" tabindex="-1" aria-labelledby="project5ModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h5 class="modal-title" id="project5ModalLabel">Hip-Hop EP produkcia</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zavrieť"></button>
+     </div>
+     <div class="modal-body">
+      <img src="https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=800&amp;h=500&amp;fit=crop&amp;q=80" alt="Hip-hop produkcia detail" class="img-fluid mb-3" width="800" height="500" loading="lazy">
+      <h6 class="fw-bold mb-2">O projekte</h6>
+      <p>Moderná hip-hop produkcia pre emerging slovenského rappera. 8 skladieb s rôznymi produkčnými štýlmi - od trap po boom-bap.</p>
+      <h6 class="fw-bold mb-2 mt-3">Production workflow</h6>
+      <ul>
+       <li>Custom beat production v Ableton Live</li>
+       <li>Sample clearance a licensing</li>
+       <li>Vocal recording a comping</li>
+       <li>Harmonické background vocals</li>
+       <li>Modern mixing (autotune, effects processing)</li>
+      </ul>
+      <h6 class="fw-bold mb-2 mt-3">Collaboration</h6>
+      <p>Práca s featured artistami, koordinácia remote sessions, creative direction</p>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavrieť</button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="modal fade" id="project6Modal" tabindex="-1" aria-labelledby="project6ModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h5 class="modal-title" id="project6ModalLabel">Commercial jingle série</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zavrieť"></button>
+     </div>
+     <div class="modal-body">
+      <img src="https://images.unsplash.com/photo-1460036521480-ff49c08c2781?w=800&amp;h=500&amp;fit=crop&amp;q=80" alt="Jingle produkcia detail" class="img-fluid mb-3" width="800" height="500" loading="lazy">
+      <h6 class="fw-bold mb-2">O projekte</h6>
+      <p>Skladba 12 originálnych audio jingles pre národnú reklamú kampaň. Catchy melódie, brand sonic identity a adaptácie pre rôzne formáty.</p>
+      <h6 class="fw-bold mb-2 mt-3">Creative brief</h6>
+      <ul>
+       <li>Analýza brand identity a target audience</li>
+       <li>Melodické koncept development</li>
+       <li>A/B testing rôznych versií</li>
+       <li>Finálna produkcia a variácie</li>
+      </ul>
+      <h6 class="fw-bold mb-2 mt-3">Deliverables</h6>
+      <ul>
+       <li>Full 30-second versions</li>
+       <li>15-second cuts</li>
+       <li>5-second stingers</li>
+       <li>Instrumental versions</li>
+       <li>Multiple mix stems</li>
+      </ul>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavrieť</button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <footer class="bg-dark text-white py-4 py-md-5">
+   <div class="container">
+    <div class="row g-4">
+     <div class="col-md-4">
+      <h3 class="h5 mb-3">HudobnýSvet</h3>
+      <p>Profesionálne hudobné služby a produkcia pre umelcov, kapely a kreatívcov po celom Slovensku.</p>
+      <div class="social-links mt-3">
+       <a href="#" class="text-white me-3" aria-label="Facebook"> 
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+         <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+        </svg> 
+       </a> <a href="#" class="text-white me-3" aria-label="Instagram"> 
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+         <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+        </svg> 
+       </a> <a href="#" class="text-white" aria-label="YouTube"> 
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+         <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+        </svg> 
+       </a>
+      </div>
+     </div>
+     <div class="col-md-2">
+      <h3 class="h6 mb-3">Navigácia</h3>
+      <ul class="list-unstyled">
+       <li class="mb-2"><a href="/" class="text-white text-decoration-none">Domov</a></li>
+       <li class="mb-2"><a href="about.html" class="text-white text-decoration-none">O nás</a></li>
+       <li class="mb-2"><a href="services.html" class="text-white text-decoration-none">Služby</a></li>
+       <li class="mb-2"><a href="portfolio.html" class="text-white text-decoration-none">Portfólio</a></li>
+       <li class="mb-2"><a href="contact.html" class="text-white text-decoration-none">Kontakt</a></li>
+      </ul>
+     </div>
+     <div class="col-md-3">
+      <h3 class="h6 mb-3">Právne informácie</h3>
+      <ul class="list-unstyled">
+       <li class="mb-2"><a href="privacy.html" class="text-white text-decoration-none">Ochrana súkromia</a></li>
+       <li class="mb-2"><a href="terms_and_conditions.html" class="text-white text-decoration-none">Všeobecné podmienky</a></li>
+       <li class="mb-2"><a href="terms_of_services.html" class="text-white text-decoration-none">Podmienky služieb</a></li>
+       <li class="mb-2"><a href="cookie_policy.html" class="text-white text-decoration-none">Cookies</a></li>
+       <li class="mb-2"><a href="gdpr-rights.html" class="text-white text-decoration-none">GDPR práva</a></li>
+       <li class="mb-2"><a href="impressum.html" class="text-white text-decoration-none">Impressum</a></li>
+      </ul>
+     </div>
+     <div class="col-md-3">
+      <h3 class="h6 mb-3">Kontakt</h3>
+      <ul class="list-unstyled">
+       <li class="mb-2">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="me-2" aria-hidden="true">
+         <path d="M20 10.999h2C22 5.869 18.127 2 12.99 2v2C17.052 4 20 6.943 20 10.999z" fill="currentColor" /> <path d="M13 8c2.103 0 3 .897 3 3h2c0-3.225-1.775-5-5-5v2zm3.422 5.443a1.001 1.001 0 00-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 00.043-1.391L6.859 3.513a1 1 0 00-1.391-.087l-2.17 1.861a1 1 0 00-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 00.648-.291l1.86-2.171a1 1 0 00-.086-1.391l-4.064-3.696z" fill="currentColor" />
+        </svg>
+        <a href="tel:+421912345678" class="text-white text-decoration-none">+421 912 345 678</a>
+       </li>
+       <li class="mb-2">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="me-2" aria-hidden="true">
+         <path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 001.228 0L20 9.044 20.002 18H4z" fill="currentColor" />
+        </svg>
+        <a href="mailto:info@domain.com" class="text-white text-decoration-none">info@domain.com</a>
+       </li>
+       <li class="mb-2">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="me-2" aria-hidden="true">
+         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z" fill="currentColor" />
+        </svg>
+        Kollárovho 12, 811 06 Bratislava, Slovensko
+       </li>
+      </ul>
+     </div>
+    </div>
+    <hr class="my-4 bg-white">
+    <div class="row">
+     <div class="col-12 text-center">
+      <p class="mb-0">© 2025 HudobnýSvet. Všetky práva vyhradené.</p>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script src="script.js" defer></script>
+ </body>
+</html>
